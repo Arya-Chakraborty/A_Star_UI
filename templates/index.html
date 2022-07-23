@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <center>
+        <div class="heading"><h1>A-Star Algorithm Maze Solver</h1></div>
+        <div class="dropdown" id="drpBtn">
+            <button class="dropbtn">Choose the Size of the Maze</button>
+            <div class="dropdown-content">
+              <a onclick="getMazeSize(3)">3 X 3 Blocks</a>
+              <a onclick="getMazeSize(4)">4 X 4 Blocks</a>
+              <a onclick="getMazeSize(5)">5 X 5 Blocks</a>
+              <a onclick="getMazeSize(6)">6 X 6 Blocks</a>
+              <a onclick="getMazeSize(7)">7 X 7 Blocks</a>
+              <a onclick="getMazeSize(8)">8 X 8 Blocks</a>
+              <a onclick="getMazeSize(9)">9 X 9 Blocks</a>
+              <a onclick="getMazeSize(10)">10 X 10 Blocks</a>
+              <a onclick="getMazeSize(11)">11 X 11 Blocks</a>
+              <a onclick="getMazeSize(12)">12 X 12 Blocks</a>
+              <a onclick="getMazeSize(13)">13 X 13 Blocks</a>
+              <a onclick="getMazeSize(14)">14 X 14 Blocks</a>
+              <a onclick="getMazeSize(15)">15 X 15 Blocks</a>
+            </div>
+        </div>
+        <div ><h3 id="instructions" class="instructions">Select A Starting Point (Start Node)</h3></div>
+        <div id="main"></div>
+        <div id="btnGrid"></div>
+        <br>
+        <button id="reloadBtn" class="btn continue reload" onclick="location.href='/'">Go Again!</button>
+    </center> 
+    <script src="/static/script.js"></script>
+</body>
+</html>
