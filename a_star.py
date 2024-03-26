@@ -13,7 +13,7 @@ def a_star(givenMaze):
             self.parent = parent
             self.action = action
             self.dist_from_start = dist_from_start
-
+ 
     # creating the frontier class for greedy best search
 
     class A_star():
